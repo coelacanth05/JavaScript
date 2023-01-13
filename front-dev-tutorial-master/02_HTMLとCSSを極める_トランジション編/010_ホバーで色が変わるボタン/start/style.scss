@@ -1,0 +1,21 @@
+$w:white;
+$b:black;
+
+#container {
+  text-align: center;
+}
+.btn {
+background-color: $w;
+  color: $b;
+  border: 1px solid $b;
+  padding: 10px 40px;
+  margin: 50px 0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+  background-color: $b;
+  color: $w;
+  }
+}
